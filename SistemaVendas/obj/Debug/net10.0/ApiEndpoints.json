@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "SistemaVendas.Controllers.ProdutosController",
+    "Method": "Listar",
+    "RelativePath": "api/produtos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaVendas.Controllers.ProdutosController",
+    "Method": "Criar",
+    "RelativePath": "api/produtos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produto",
+        "Type": "SistemaVendas.Domain.Produto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
